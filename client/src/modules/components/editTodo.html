@@ -23,11 +23,17 @@
                 <div class="form-group">
                     <label for="priotity" >Priority</label>
                     <select value.bind="todo.priotity" class="form-control" id="priotity">
-                    <option value="high">High</option>
-                    <option value="medium">Medium</option>
-                    <option value="low">Low</option>
+                    <option value="High">High</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Low">Low</option>
                     </select>
                 </div>
+                <div class="form-check">
+                    <input class="form-check-input" checked.bind="todo.done" type="checkbox" value="" id="defaultCheck1">
+                    <label class="form-check-label" for="defaultCheck1">
+                        Done
+                    </label>
+                </div>  
             </div>
         </div>
     </div>

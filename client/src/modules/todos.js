@@ -26,8 +26,8 @@ export class Todos  {
     newTodo() {
         this.todo = {
             todo: "",
-            priotity: "low",
-            done: true
+            priotity: "Low"
+            // done: true
         }
         this.openEditForm();
     }
